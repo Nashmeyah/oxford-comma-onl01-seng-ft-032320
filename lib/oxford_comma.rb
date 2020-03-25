@@ -1,4 +1,3 @@
 def oxford_comma(array)
-  new_array = array.join(", ")
-  return new_array
+  array.map { |i| "'" + i.to_s + "'" }.join(",")
 end
